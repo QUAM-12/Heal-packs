@@ -1,0 +1,1 @@
+execute as @a[tag=c.heal] run function heal:turm/loop

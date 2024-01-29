@@ -1,0 +1,1 @@
+execute as @a[tag=c.heal,limit=1] run function heal:edit/go
