@@ -1,5 +1,5 @@
 execute store result score @s c.heal.hp run data get entity @s Health
-execute store result score @s c.heal.max run attribute @s generic.max_health base get
+execute store result score @s c.heal.max run attribute @s generic.max_health get
     #1 fail == 최대 체력임 == 회복량이 0임
     execute if score @s c.heal matches ..0 run return 0
     execute if score @s c.heal.hp = @s c.heal.max run return 0
